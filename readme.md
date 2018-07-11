@@ -13,6 +13,7 @@ https://github.com/nswbmw/node-in-debugging/blob/master/1.1%20perf%20%2B%20Flame
 
 3. 使用time命令统计命令行执行时间
 http://www.runoob.com/linux/linux-comm-time.html
+http://man.linuxde.net/time
 
 4. Shell 输入/输出重定向
 http://www.runoob.com/linux/linux-shell-io-redirections.html
@@ -35,3 +36,11 @@ even though you don't see every existing PIDs with ls /proc, you can still do cd
 Conclusion: from the kernel point of view, only processes exist, each having their own unique PID, and a so-called thread is just a different kind of process.
 
 6. linux内核设计与实现阅读--进程管理
+进程间通信http://www.cs.rochester.edu/courses/256/fall2014/slides/04-IPC.pdf
+http://www.cs.rochester.edu/courses/256/fall2014/
+http://windegger.org/docs/c-programming-in-linux.pdf
+http://users.cs.cf.ac.uk/Dave.Marshall/C/
+进程间通信：共享内存、消息传递
+线程
+
+
