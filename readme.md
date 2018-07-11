@@ -4,7 +4,10 @@ hello world!
 
 #### 20180711 
 
-1. 火焰图及生成 https://github.com/nswbmw/node-in-debugging/blob/master/1.1%20perf%20%2B%20FlameGraph.md
+1. 火焰图及生成 
+
+https://github.com/brendangregg/FlameGraph
+https://github.com/nswbmw/node-in-debugging/blob/master/1.1%20perf%20%2B%20FlameGraph.md
 
 2. 压缩算法lz4 arm
 
@@ -31,3 +34,4 @@ folders' numeric names in /proc/TGID/task as /proc/TGID/task/NUMBER are PIDs,
 even though you don't see every existing PIDs with ls /proc, you can still do cd /proc/any_PID.
 Conclusion: from the kernel point of view, only processes exist, each having their own unique PID, and a so-called thread is just a different kind of process.
 
+6. linux内核设计与实现阅读--进程管理
