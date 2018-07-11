@@ -43,4 +43,5 @@ http://users.cs.cf.ac.uk/Dave.Marshall/C/
 进程间通信：共享内存、消息传递
 线程
 
-
+7. postgres技术会议资料
+http://www.pgcon.org/2018/
