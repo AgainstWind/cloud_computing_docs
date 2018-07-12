@@ -12,13 +12,16 @@ https://github.com/nswbmw/node-in-debugging/blob/master/1.1%20perf%20%2B%20Flame
 2. 压缩算法lz4 arm
 
 3. 使用time命令统计命令行执行时间
+
 http://www.runoob.com/linux/linux-comm-time.html
 http://man.linuxde.net/time
 
 4. Shell 输入/输出重定向
+
 http://www.runoob.com/linux/linux-shell-io-redirections.html
 
 5. linux process&thread
+
 https://unix.stackexchange.com/questions/31595/are-linux-kernel-threads-really-kernel-processes
 The documentation can be pretty confusing, so here is the "real" Linux model:
 inside the Linux kernel, something that can be run (& scheduled) is called a "process",
@@ -36,6 +39,7 @@ even though you don't see every existing PIDs with ls /proc, you can still do cd
 Conclusion: from the kernel point of view, only processes exist, each having their own unique PID, and a so-called thread is just a different kind of process.
 
 6. linux内核设计与实现阅读--进程管理
+
 进程间通信http://www.cs.rochester.edu/courses/256/fall2014/slides/04-IPC.pdf
 http://www.cs.rochester.edu/courses/256/fall2014/
 http://windegger.org/docs/c-programming-in-linux.pdf
@@ -44,10 +48,12 @@ http://users.cs.cf.ac.uk/Dave.Marshall/C/
 线程
 
 7. postgres技术会议资料
+
 http://www.pgcon.org/2018/
 
 
-#####20180712
+##### 20180712
+
 1.一些电子书 
 https://legacy.gitbook.com/@wizardforcel
 https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/06.07.html
@@ -74,6 +80,30 @@ case $1 in
 esac
 exit 0
 ```
+
+3. centos with desktop on vagrant
+
+http://www.interdb.jp/blog/tips/vagrant_gnome/
+
+
+4. cap 12年
+
+http://www.infoq.com/cn/articles/cap-twelve-years-later-how-the-rules-have-changed/
+
+https://blog.csdn.net/dellme99/article/details/15340955
+
+
+5. postgres
+
+http://momjian.us/main/writings/pgsql/internalpics.pdf
+https://wiki.postgresql.org/images/8/81/FSM_and_Visibility_Map.pdf
+http://momjian.us/main/writings/pgsql/
+http://rachbelaid.com/introduction-to-postgres-physical-storage/
+https://doxygen.postgresql.org
+
+PostgreSQL源码分析之shared buffer的分配与替换http://blog.chinaunix.net/uid-24774106-id-3761272.html
+
+PostgreSQL源码分析之shared buffer状态信息及性能测量http://blog.chinaunix.net/uid-24774106-id-3761861.html
 
 
 
