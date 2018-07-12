@@ -95,15 +95,22 @@ https://blog.csdn.net/dellme99/article/details/15340955
 
 5. postgres
 
+
+http://www.interdb.jp
+http://momjian.us/main/presentations/
 http://momjian.us/main/writings/pgsql/internalpics.pdf
 https://wiki.postgresql.org/images/8/81/FSM_and_Visibility_Map.pdf
 http://momjian.us/main/writings/pgsql/
 http://rachbelaid.com/introduction-to-postgres-physical-storage/
 https://doxygen.postgresql.org
-
 PostgreSQL源码分析之shared buffer的分配与替换http://blog.chinaunix.net/uid-24774106-id-3761272.html
-
 PostgreSQL源码分析之shared buffer状态信息及性能测量http://blog.chinaunix.net/uid-24774106-id-3761861.html
+https://madusudanan.com/blog/understanding-postgres-caching-in-depth/
+http://www.craigkerstiens.com/2013/01/10/more-on-postgres-performance/
+
+
+
+
 
 
 
