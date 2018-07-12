@@ -45,3 +45,36 @@ http://users.cs.cf.ac.uk/Dave.Marshall/C/
 
 7. postgres技术会议资料
 http://www.pgcon.org/2018/
+
+
+#####20180712
+1.一些电子书 
+https://legacy.gitbook.com/@wizardforcel
+https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/06.07.html
+
+2. linux shell特殊符号
+http://wangqiaowqo.iteye.com/blog/983757
+case语句：
+```shell
+name=`basename $0 .sh`
+case $1 in
+ s|start)
+        echo "start..."
+        ;;
+ stop)
+        echo "stop ..."
+        ;;
+ reload)
+        echo "reload..."
+        ;;
+ *)
+        echo "Usage: $name [start|stop|reload]"
+        exit 1
+        ;;
+esac
+exit 0
+```
+
+
+
+
